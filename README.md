@@ -1,10 +1,10 @@
 # Topology of Bayesian Belief-Networks
 Project for Advanced Statistics for Physics Analysis at University of Padova 2023.
 A Bayesian belief-network [1] structure is a directed acyclic graph in which nodes represent domain variables
-and arcs between nodes represent probabilistic dependencies [2].
+and arcs between nodes represent probabilistic dependencies [ [2] ](#ref2).
 Given a database of records, it is interesting to construct a probabilistic network which can provide insights
 into probabilistic dependencies existing among the variables in the database. Such network can be further used
-to classify future behaviour of the modelled system [2].
+to classify future behaviour of the modelled system [[2]].
 
 Although researchers have made substantial advances in developing the theory and application of belief networks,
 the actual construction of these networks often remains a difficult, time consuming task. An efficient method for
