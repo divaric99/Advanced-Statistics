@@ -1,18 +1,18 @@
 # Topology of Bayesian Belief-Networks
 Project for Advanced Statistics for Physics Analysis at University of Padova 2023.
-A Bayesian belief-network [1] structure is a directed acyclic graph in which nodes represent domain variables
-and arcs between nodes represent probabilistic dependencies [ [2] ](#ref2).
+A Bayesian belief-network [[1]](#ref1) structure is a directed acyclic graph in which nodes represent domain variables
+and arcs between nodes represent probabilistic dependencies [[2]](#ref2).
 Given a database of records, it is interesting to construct a probabilistic network which can provide insights
 into probabilistic dependencies existing among the variables in the database. Such network can be further used
-to classify future behaviour of the modelled system [[2]].
+to classify future behaviour of the modelled system [[2]](#ref2).
 
 Although researchers have made substantial advances in developing the theory and application of belief networks,
 the actual construction of these networks often remains a difficult, time consuming task. An efficient method for
 determining the relative probabilities of different belief-network structures, given a database of cases and a set
-of explicit assumptions is represented by theK2 algorithm [2][3].
+of explicit assumptions is represented by theK2 algorithm [[2]](#ref2)[[3]](#ref3).
 
-In this project after having studied the problem in the literature ([2]-[3]), I implement in R the algorithm and
-check its performances on datasets progressively more complexed: CH93 [3], Asia and Child datasets [6].
+In this project after having studied the problem in the literature ([[2]](#ref2)-[[3]](#ref3)), I implement in R the algorithm and
+check its performances on datasets progressively more complexed: CH93 [[3]](#ref3), Asia and Child datasets [[6]](#ref6).
 Finally i compare these results with tose obtained with the library "bnstruct". 
 
 
