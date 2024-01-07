@@ -13,7 +13,7 @@ of explicit assumptions is represented by theK2 algorithm [[2]](#ref2)[[3]](#ref
 
 In this project after having studied the problem in the literature ([ [2] ](#ref2)-[[3]](#ref3)), I implement in R the algorithm and
 check its performances on datasets progressively more complexed: CH93 [ [3] ](#ref3), Asia and Child datasets [ [6] ](#ref6).
-Finally i compare these results with tose obtained with the library "bnstruct". 
+Finally i compare these results with those obtained with the library "bnstruct". 
 
 
 
